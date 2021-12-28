@@ -3,64 +3,85 @@
     background-color: chartreuse;
     Display:flex;
     flex-direction: row;
+    animation: games1 10s infinite;
    
 }
 .game1{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .game2{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .game3{
     background-color: darkgoldenrod;
     text-align: center;
+    animation: games1 10s infinite;
 }
 .game5{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .game4{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .line5{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .line6{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .line7{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .line8{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .line9{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .line10{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
 .help{
     background-color: darkcyan;
     Display:flex;
     justify-content: space-evenly;
+    animation: games 5s infinite;
 }
+@keyframes games {
+    to {background-color: chartreuse;}
+    from {background-color: darkcyan;}
+  }
+  @keyframes games1 {
+    from {background-color: chartreuse;}
+    to {background-color: cyan;}
+  }
